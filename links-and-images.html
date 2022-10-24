@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blue Raspberry</title>
+  </head>
+  <body>
+    <header>
+      <h1>Link And Images</h1>
 
-</head>
-<body>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home page</a></li>
+          <li><a href="headings-and-paragraphs.html">Headings and paragraphs page</a></li>
+          <li><a href="forms.html"> Forms </a></li>
+          <li><a href="links-and-images.html"> links and images</a></li>
+          <li><a href="iframes-tables-and-lists.html"> Iframes Tables and Lists </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--
+      paragraphs are an example of a block elements because, 
+      by default they take up the entire width of the web page and
+      add space at the top and bottom of the element
+    -->
+      <p>This web page shows the diffrence between block and inline elements!</p>
 
-    <h1> Link And Images </h1>
+      <!-- Ancors are an example of an in line elements because, by default, they
+      only take up the space that they need to.
 
-<p> This web page shows the diffrence between block and inline elements!</p>
+      we showed the diffrence between block and inline
+    -->
+      <a href="index.html">Home page</a>
 
+      <a href="headings-and-paragraphs.html">Headings and paragraphs page</a>
 
-<a href="index.html">Home page</a>
+      <a href="iframes-lists-tables.html"> iframes lists and tables</a>
 
-<a href="headings-and-paragraphs.html">Headings and paragraphs page</a>
+      <a href="https://www.ag.ndsu.edu/horticulture/fruits-1/documents/what-is-a-blue-raspberry" target="_blank">
+        Blue Raspberry? Are they real?</a
+      >
 
-<a href="https://www.ag.ndsu.edu/horticulture/fruits-1/documents/what-is-a-blue-raspberry" target="_blank"> Blue Raspberry? Are they real?</a>
+      <!-- 
+      this is an example of an image tag
+      the src is the location of the image we want to display.
+      the src attribute can be an tnternet location (I.e , https://www.google.com/...),but the best practice is to hav your own image folder that stores all the
+      images you use on your website
 
+      NOTE- img is a self closeing tage
+    -->
 
-<!-- 
-this is an example of an image tag
-the src is the location of the image we want to display.
-the src attribute can be an tnternet location (I.e , https://www.google.com/...),but the best practice is to hav your own image folder that stores all the
-images you use on your website
-
-NOTE- img is a self closeing tage
--->
-
-<img src="images/blue-raspberry.jfif" 
-width="500" 
-height="371.75" 
-alt="this is an image of a blue raspberry candy that is a blue gummy 
-the size of a marble covered in light blue sprinkles that 
-are small balls and they are absolutely tasty"
-/>
-
-
-
-
-
-
-    
-</body>
+      <img
+        src="images/blue-raspberry.jfif"
+        width="500"
+        height="371.75"
+        alt="this is an image of a blue raspberry candy that is a blue gummy 
+     the size of a marble covered in light blue sprinkles that are small balls and they are absolutely tasty" />
+    </main>
+    <footer>
+      <p>&#169; Shiyah</p>
+    </footer>
+  </body>
 </html>

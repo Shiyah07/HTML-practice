@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFrames, Lists and Tables</title>
+  </head>
+  <body>
+    <header>
+      <h1>IFrames, Lists and Tables</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home page</a></li>
+          <li><a href="headings-and-paragraphs.html">Headings and paragraphs page</a></li>
+          <li><a href="forms.html"> Forms </a></li>
+          <li><a href="links-and-images.html"> links and images</a></li>
+          <li><a href="iframes-tables-and-lists.html"> Iframes Tables and Lists </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <a href="https://youtu.be/-0bq40HUeEc" target="_blank"> PTEC Home Page</a>
+
+      <iframe
+        width="50%"
+        height="600"
+        src="https://www.youtube.com/embed/-0bq40HUeEc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+      <br />
+
+      <!--
+      this is a HTMI table.
+      this starts with the table tag
+    -->
+
+      <table>
+        <!--
+        inside the table tag, you create table rows with the tr tag.
+      -->
+
+        <tr>
+          <!--
+       inside the very first table row should be your table heading (th tags).
+
+       &nbsp; is an entity. entities are used to display
+       special characters on a website. entities use names,
+       such as &nbsp; or numbers, suchas &#169; (the copyright symbol.)
+     -->
+
+          <th>&nbsp;&nbsp;Best Flavor&nbsp;&nbsp;</th>
+          <th>&nbsp;&nbsp;Candy Items With that Flavour&nbsp;&nbsp;</th>
+        </tr>
+
+        <!-- 
+        then you create as many table rows of data as you wish...
+      -->
+
+        <tr>
+          <!--
+         inside each table row after headings, you add table data (td tags)
+         to the row.
+       -->
+          <td>&nbsp;&nbsp; Blue Raspberry &nbsp;&nbsp;</td>
+          <td>&nbsp;&nbsp; Jolly Ranchers &nbsp;&nbsp;</td>
+        </tr>
+        <td>&nbsp;&nbsp; Strawberry &nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp; Star Bursts &nbsp;&nbsp;</td>
+      </table>
+    </main>
+    <footer>
+      <p>&#169; Shiyah</p>
+    </footer>
+  </body>
+</html>
